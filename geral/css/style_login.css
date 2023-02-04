@@ -1,0 +1,74 @@
+:root {
+    --red: #dc4266;
+    --blue: #3072e6;
+    --background: #00032c;
+    --white: #ffffff;
+
+
+    font-family: 'Roboto', sans-serif;
+}
+body, header, input, a {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+    background: var(--background);
+    color: var(--white);
+}
+
+header {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+.a {
+    background: var(--red);
+    margin: 3px auto;
+    width: 100%;
+    max-width: 270px;
+    color: var(--white);
+    height: 30px;
+
+    border-radius: 5px;
+    
+}
+
+input::placeholder {
+    padding: 3%;
+    font-size: 13px;
+    color: var(--white);
+}
+
+.i {
+    overflow: hidden;
+    width: var(--profile-photo-size);
+    height: var(--profile-photo-size);
+    border-radius: 100%;
+}
+
+.submit {
+    background: var(--red);
+    margin: 5px auto;
+    width: 40%;
+    max-width: 270px;
+    color: var(--white);
+    font-size: 15px;
+
+    border-radius: 5px;
+
+}
